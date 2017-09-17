@@ -1,0 +1,55 @@
+.thumbnail > img
+{
+    height: 140px;
+    width: 100%;
+}
+h3
+{
+    margin-top: 5px;
+}
+.container
+{
+    border: 1px solid #bbb;
+    box-shadow: -1px -1px 1px 1px #eee inset,
+                 1px 1px 1px 1px #eee inset;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.back1,.back2,.back3,.back4,.back5,.back6,.back7,.back8,.back9,.back10,.back11,.back12
+{
+    position: relative;
+    width: 359px;
+    height: 354px;
+    z-index: 1;
+    display: none;
+}
+.front1,.front2,.front3,.front4,.front5,.front6,.front7,.front8,.front9,.front10,.front11,.front12
+{
+    position: relative;
+    z-index: 2;
+}
+.caption span
+{
+    float: right;
+    cursor: pointer;
+}
+select {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: inline-block;
+    padding: 7px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #337ab7;
+    border-radius: 4px;
+}
+}
+

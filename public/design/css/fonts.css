@@ -1,0 +1,19 @@
+
+@font-face {
+	font-family: 'JF-Flat-regular';
+	src: url('./JF-Flat-regular.ttf');
+}
+@font-face{
+    font-family:'droid-kufi';
+    src:url('../fonts/droid.ttf');
+}
+
+@font-face{
+    font-family:'jor';
+    src:url('../fonts/jordan1.ttf');
+}
+
+@font-face{
+    font-family:'open-sans-l';
+    src:url('../fonts/OpenSans-Light.ttf');
+}

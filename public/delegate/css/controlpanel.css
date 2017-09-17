@@ -1,0 +1,440 @@
+body{
+    background:#fff;
+}
+.c-head{
+    background:#333;
+}
+.ps-h img{
+    width:40px;
+    height:40px;
+    margin:5px;
+    border-radius:50%;
+    border:solid 3px #fff;
+}
+.ps-h{
+    color:#fff;
+    font-family:jor;
+    transition:0.7s;
+    -webkit-transition:0.7s;
+    float:left;
+}
+.msg-h{
+    color:#fff;
+    float:left;
+    margin-left:30px;
+}
+.msg-h .msg i{
+    font-size:20px;
+    line-height:40px;
+    color: #fff;
+}
+.msg i:focus,.msg i:hover{
+    background: transparent;
+    color: #f90;
+}
+.msg a:hover,.msg a:focus{
+    background: transparent;
+
+}
+.msg{
+    float:left;
+    margin:5px;
+    margin-right:30px;
+    position:relative;
+}
+.msg a{
+    color:#fff;
+    display:block;
+    position:absolute;
+    top:-3px;
+    border-radius:50%;
+    right:-11px;
+    background:#cc4b2e;
+    font-family:arial;
+    width:20px;
+    height:20px;
+    text-align:center;
+    border:solid 2px;
+}
+.side{
+    float:right;
+    background:#333;
+    color:#fff;
+    min-height:100vh;
+    padding:0px;
+}
+.side .prof-s{
+    margin-bottom:30px;
+    border-bottom:solid 1px #e07e67;
+}
+.side .prof-s img{
+    display:table;
+    margin:auto;
+    border-radius:50%;
+    border:solid 5px #999;
+}
+.prof-s h4{
+    text-align:center;
+    line-height:50px;
+}
+.side li{
+    list-style-type:none;
+    text-align:right;
+    direction:rtl;
+    padding:5px 10px;
+    width:100%;
+    height:50px;
+    line-height:50px;
+    margin-bottom:10px;
+    cursor: pointer;
+}
+.side li i{
+    font-size:17px;
+    margin-left:10px;
+    color:#fff;
+}
+.main .col-sm-3,.main .col-xs-4{
+    padding:10px 20px;
+    margin-top:20px;
+}
+.main .col-sm-3{
+    margin:4%;
+}
+.main .num-date{
+    background:#1a2e95;
+    height:100px;
+    font-family:arial;
+}
+.num-date i{
+    width:50px;
+    height:100px;
+    float:left;
+    font-size:30px;
+    line-height:80px;
+    color:#fff;
+}
+.num-date span,.num-date a{
+    color:#fff;
+    text-align:center;
+    display:block;
+    font-size:30px;
+}
+.num-date a{
+    font-size:20px;
+}
+.num-comp{
+    background:#2d8b21;
+    color:#fff;
+    height:100px;
+}
+.num-comp i{
+    display:block;
+    height:100px;
+    float:left;
+    width:50px;
+    font-size:30px;
+    line-height:80px;
+}
+.num-comp span h4{
+    text-align:center;
+}
+.num-comp span a,.num-new span a{
+    font-family:arial;
+    font-size:20px;
+    text-align:center;
+    display:block;
+}
+.num-new{
+    background:#d4650c;
+    height:100px;
+    color:#fff;
+}
+.num-new i{
+    display:block;
+    height:100px;
+    float:left;
+    width:50px;
+    font-size:30px;
+    line-height:80px;
+}
+.num-new span h4{
+    text-align:center;
+    font-size:17px;
+}
+.main .row{
+    margin-bottom:80px;
+}
+.sh,.select{
+    display:table;
+    margin:auto;
+    float:none;
+    position:relative;
+    margin-bottom:40px;
+}
+.sh input{
+    width:100%;
+    padding:5px;
+    text-align:right;
+    padding-right: 10px;
+    padding-left:45px;
+    height:40px;
+    direction:rtl;
+    box-shadow:2px 2px 3px #555;
+    border:0px;
+    background:rgba(0,0,0,0.9);
+    color:#fff;
+}
+.sh input[type='submit'],.sh i{
+    width:50px;
+    position:absolute;
+    top:0px;
+    margin:0px;
+    height:40px;
+    left:0px;
+    color:#fff;
+    font-size:25px;
+    text-align:center;
+    line-height:40px;
+    background:#3a56e3;
+    z-index:3;
+}
+.sh input[type='submit']{
+    opacity:0;
+    z-index:5;
+}
+.select select,.select input[type='submit']{
+    width:30%;
+    height:30px;
+    direction:rtl;
+    margin:0px;
+    margin-right:2.7%;
+    float:right;
+}
+.select input[type='submit']{
+    font-size:17px;
+    line-height:20px;
+    background: #071350;
+}
+.company table{
+    width:100%;
+    margin-top:40px;
+    border:solid 5px #555; 
+}
+.company th,.company td{
+    width:30%;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+}
+.company th{
+    background:#076a2c;
+    color:#fff;
+}
+.company tr{
+    text-align:center;
+    height:40px;
+    border-bottom:solid 1px 
+}
+.company tr td i{
+    font-size:20px;
+    margin:0px 10px;
+    cursor:pointer;
+}
+.company tr a{
+    color: #333;
+}
+.messages{
+    width:100%;
+    max-width:900px;
+    margin:30px auto;
+}
+.messages .msgs{
+    background:#333;
+    padding:0px;
+    float:right;
+    max-height: 80vh;
+    overflow-y:scroll;
+}
+.messages .msgs li{
+    list-style-type:none;
+    color:#fff;
+    height:50px;
+    padding:0px;
+    border-bottom:solid 1px #999;
+    padding:0px 15px;
+    cursor: pointer;
+}
+.messages .msgs img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    float:right;
+    border:solid 2px #999;
+    margin-top:0px;
+    margin-left:10px;
+}
+.messages .msgs h4{
+    font-size:13px;
+    text-align:right;
+    line-height:20px;
+}
+.messages .msgs span{
+    text-align:right;
+    display:block;
+    font-family:arial;
+}
+.messages .msg-content{
+    background:#fff;
+    padding:10px;
+}
+.msg-content .cont{
+    max-height: 70vh;
+    overflow-y:scroll;
+}
+.msg-content li{
+    list-style-type:none;
+    min-height:70px;
+    width:100%;
+    border-bottom:dotted 1px ;
+    padding-bottom:10px;
+}
+.msg-content li img{
+    width:50px;
+    height:50px;border:solid 2px #333;
+    float:right;
+    margin:5px 10px;
+}
+.msg-content h4{
+    font-size:15px;
+    text-align:right;
+}
+.msg-content p{
+    text-align:right;
+}
+.msg-content span{
+    text-align:right;
+    display:block;
+    color:#f90;
+    font-family:arial;
+}
+.send textarea{
+    height:80px;
+}
+.send textarea,.send input[type='submit']{
+    width:75%;
+    margin-top:5px;
+}
+.send input[type='submit']{
+    font-size:15px;
+    line-height:20px;
+}
+.notfs,.my-msgs{
+    position:absolute;
+    bottom:-320px;
+    left:-50px;
+    z-index:10;
+    background:#333;
+    width:250px;
+    height:300px;
+    padding:5px;
+    overflow-y:scroll;
+     display:none;
+}
+.notfs li,.my-msgs li{
+    list-style-type:none;
+    width:100%;
+    text-align:right;
+    direction:rtl;
+    padding:10px 5px;
+    min-height:40px;
+    border-bottom:solid 1px;
+    color:#fff;
+}
+.notfs img,.my-msgs img{
+    width:40px;
+    height:40px;
+    float:right;
+    margin-left:10px;
+}
+.my-msgs h4{
+    font-size:15px;
+    line-height:0px;
+}
+.my-msgs span{
+    font-family:arial;
+    display:block;
+    padding-top:10px;
+}
+.msg .mark{
+    width:30px;
+    height:30px;
+    border-style: solid;
+    border-width: 0 20px 20px 20px;
+    border-color: transparent transparent #333 transparent;
+    background:transparent;
+    position:absolute;
+    bottom:-20px;
+    left:-10px;
+    display:none;
+}
+#cp-edit-form{
+    width:100%;
+    max-width:500px;
+    position:fixed;
+    top:30%;
+    left:20%;
+    background:#333;
+    color:#fff;
+    padding:10px;
+    display: none;
+    z-index: 320;
+}
+#cp-edit-form input[type='text']{
+    width:100%;
+    padding:5px;
+    direction:rtl;
+    color: #333;
+}
+#cp-edit-form input[type='radio']{
+    margin-left:20%;
+    margin-top:20px;
+}
+#del{
+    position:fixed;
+    top:30%;
+    z-index:320;
+    width:100%;
+    max-width:400px;
+    left:30%;
+    background:#333;
+    color:#fff;
+    display: none;
+}
+#del i{
+    text-align:center;
+    display:block;
+    width:50px;
+    height:50px;
+    margin:auto;
+    font-size:30px;
+    line-height:50px;
+    margin-top:20px;
+    color:#f00;
+    background:#fff;
+    border-radius:50%;
+}
+#del p{
+    text-align:center;
+    width:100%;
+    display:block;
+    margin-top:40px;
+}
+#del input[type='submit']{
+    width:40%;
+    float:right;
+    margin:5%;
+    background:#05f
+}
+#del input[name='sub-yes']{
+    background:#f30;
+}

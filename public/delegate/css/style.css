@@ -1,0 +1,225 @@
+body{
+	position: relative;
+	direction: rtl;
+}
+.head{
+	background-size: 100% 100%;
+	padding: 1% 8%;
+	border-bottom: solid 7px #04518c;
+}
+.info{
+	float: right;
+	text-align: right;
+	padding: 1%;
+}
+.info img{
+	display: table;
+	margin: auto;
+}
+.info h3{
+	display: block;
+	width:100%;
+	line-height: 40px;
+	font-size: 30px;
+	text-align: center;
+}
+.info p{
+	text-align: center;
+	line-height: 30px;
+}
+.info .search{
+	position: relative;
+	height: 40px;
+	overflow: hidden;
+	float: right;
+	border:solid 1px #225e8d;
+	width: 100%;
+	margin-top: 4%;
+}
+.info .search input{
+	display: block;
+	border:0px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	padding-right: 10px;
+	padding-left: 60px;
+	text-align: right;
+	font-family: jor;
+	line-height: 40px;
+}
+input:focus{
+	border: 0px none;
+	box-shadow: none;
+}
+.search span,.search input[type='submit']{
+	display: block;
+	width: 40px;
+	height: 100%;
+	background: -webkit-linear-gradient(#04518c, #225e8d);
+	background: linear-gradient(#04518c, #225e8d);
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 20px;
+	z-index: 5;
+}
+.info .search input[type='submit']{
+	z-index: 10;
+	opacity: 0;
+}
+.vid{
+	float: left;
+	padding: 1%;
+}
+.vid h3{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.vid iframe{
+	display: block;
+	width: 80%;
+	margin: auto;
+	height: 250px;
+	border:solid 2px #04518c;
+}
+
+.vid .mybtn{
+	text-align:center;
+	margin: auto;
+	margin-top: 4%;
+	width: 90%;
+}
+.vid .mybtn a{
+	display: block;
+	width: 40%;
+	height: 40px;
+	color: #fff;
+	background: -webkit-linear-gradient(#04518c, #225e8d);
+	background: linear-gradient(#04518c, #225e8d);
+	font-size: 15px;
+	line-height: 40px;
+	padding: 0px 5px;
+	margin: 0px 3%;
+	float: right;
+	text-align: center;
+	border-radius: 0px;
+}
+.vid .mybtn a span{
+	display: block;
+	height: 40px;
+	margin-right: 15%;
+	float: right;
+	line-height: 40px;
+	font-size:20px;
+}
+.mymap{
+	position: relative;
+	width: 100%;
+	height: 550px;
+	border-bottom: solid 3px #225e8d;
+}
+.mymap form{
+	display: block;
+	width: 300px;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	z-index: 10;
+	box-shadow: 3px 3px 4px #000;
+	padding: 8px;
+	background: #eee;
+}
+.mymap form select{
+	width: 100%;
+	height: 40px;
+	background: #04518c;
+	color: #fff;
+	float: right;
+	text-align: right;
+}
+.mymap form select option{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	background: #eee;
+	border-bottom: solid 1px #225e8d;
+	color: #333;
+	text-align: right;
+}
+.mymap form input[type="submit"]{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 18px;
+	text-align: center;
+	background: #04518c;
+	border:solid 2px #225e8d;
+	margin-top: 10px;
+}
+#googleMap{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+@media screen and (max-width:500px){
+	.mybtn{
+		width: 100%;
+		margin: auto;
+		display: table;
+		float: right;
+	}
+	.mybtn div{
+		display: block;
+		width: 100%;
+	}
+	.mybtn div a.login-btn,.mybtn div a.btn{
+		width: 90%;
+		margin-top: 10px;
+		float: left;
+	}
+	.mymap form{
+		width: 80%;
+		right: 10%;
+	}
+	.login{
+		position: absolute;
+		left: 0;
+	}
+	.login img{
+		display: none;
+		opacity: 0;
+	}
+	.footer{
+		display: none;
+	}
+}
+@media screen and (max-width:1000px){
+	.login{
+		min-width: 300px;
+		margin-left: -10%;
+	}
+}
+.area select{
+	margin-top:5px;
+	width:19%;
+	direction:rtl;
+	float:right;
+	margin-left:1.7%;
+}
+.area input[type='submit']{
+	width:15%;
+	float:right;
+	margin:5px;
+	height:30px;
+	font-size:15px
+}

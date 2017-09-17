@@ -1,0 +1,44 @@
+.serv .container{
+    width:100%;
+    max-width:900px;
+    margin:auto;
+    background:url('../imgs/hback.png');
+    border:solid 3px #555;
+    padding:0px;
+    margin-top:8%;
+    height: 300px;
+    display: table;
+}
+.serv{
+    height: 300px;
+}
+.content{
+   float:right;
+   margin:0px;
+}
+.content input{
+    width:100%;
+    height:40px;
+    padding:10px;
+    direction:rtl;
+    margin:5px auto;
+    border:0px;
+    box-shadow:inset 1px 1px 3px #555;
+    border-radius:5px;
+    border:solid 1px #999;  
+}
+.content form{
+    margin-top:45px;
+}
+input[type='submit']{
+    width:100%;
+    box-shadow:0px 0px 0px;
+    border:0px;
+    border-radius:0px;
+    line-height:20px;
+    transition:0.7s;
+    -webkit-transition:0.7s;
+}
+input[type='submit']:hover{
+    background:#000ff0
+}

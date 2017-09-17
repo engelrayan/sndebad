@@ -1,0 +1,53 @@
+h3{
+    margin-top:80px;
+    text-align:center;
+    margin-bottom:30px;
+}
+.contact{
+    float:right;
+    padding:10px;
+}
+.contact input,textarea{
+    width:100%;
+    margin:5px auto;
+    max-width:500px;
+    padding:5px;
+    text-align:right;
+    direction:rtl;
+    display:table;
+}
+.contact textarea{
+    height:100px;
+}
+.contact input[type="submit"]{
+    text-align:center;
+    height:40px;
+}
+.map{
+    float:right;
+}
+.map p,.map span{
+    text-align:right;
+    display:block;
+    width:30%;
+    float:right;
+    line-height:30px;
+    margin:1%;
+    font-weight:bold;
+    padding:5px;
+}
+.map p{
+    background:#eee;
+}
+.map span{
+    width:56%;
+    font-weight:normal;
+    background:#eee;
+}
+.map #googleMap{
+    width:90%;
+    height:300px;
+    float:right;
+    margin-top:30px;
+    border:solid 5px #999;
+}
